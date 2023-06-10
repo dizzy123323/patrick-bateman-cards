@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Bateman themed business card</title>
 </head>
+
 <body onload="animateText()">
 
 
 
 
 
-<div class="header">
-	<div class="texthead" id="animated-text">
-	<h2>American</h2>
-	<h3>Psycho</h3>
-	<p>CUSTOM MADE <span style="color:red;">BUSINESS CARDS.<span></p>
-	</div>
-</div>
-
-
-<div class="cardcontainer" rel="stylesheet" type="text/css" href="css.css" >
-<div class="card">
-  <h1 style="color:white;">All the templates</h1>
-  <p style="color:white;" class="stand"><bold>Choose a template and tell which one you need<bold></p>
-  		<div class="imgcontainer">
-
-  		<div class="image-container">
-  		<img style="width:550px; height: 300px;" class="hoverable" src="business-card.png">
-  		</div>
-
-  		<div class="image-container">
-  		<img style="width:550px; height: 300px;" class="hoverable" src="dhruv card.png">
-  		</div>
-
-  		<div class="image-container">
-  		<img style="width:550px; height: 300px;" class="hoverable" src="paaji.png">
-  		</div>
-
-  		<div class="image-container">
-  		<img  class="hoverable" style="width:550px; height: 300px;" src="
-  		ori.png">
-  		</div>
-
-
+	<div class="header">
+		<div class="texthead" id="animated-text">
+			<h2>American</h2>
+			<h3>Psycho</h3>
+			<p>CUSTOM MADE <span style="color:red;">BUSINESS CARDS.<span></p>
 		</div>
-  <a href="https://www.fiverr.com/s/G2jgQZ" target="_blank" class="button" >Choose? Here</a>
-</div>
-</div>
+	</div>
+
+
+	<div class="cardcontainer">
+		<div class="card">
+			<h1 style="color:white;">All the templates</h1>
+			<p style="color:white; margin-top: -58px;" class="stand">
+				<bold>Choose a template and tell which one you need<bold>
+			</p>
+			<div class="imgcontainer">
+
+				<div class="image-container">
+					<img style="width:550px; height: 300px;" class="hoverable" src="paaji.png">
+				</div>
+				<div class="image-container">
+					<img style="width:550px; height: 300px;" class="hoverable" src="business-card.png">
+				</div>
+
+				<div class="image-container">
+					<img style="width:550px; height: 300px;" class="hoverable" src="dhruv card.png">
+				</div>
+
+
+				<div class="image-container">
+					<img class="hoverable" style="width:550px; height: 300px;" src="
+  		ori.png">
+				</div>
+
+
+			</div>
+			<a href="https://www.fiverr.com/s/G2jgQZ" target="_blank" class="button">Choose? Here</a>
+		</div>
+	</div>
 
 
 
-<script type="text/javascript">
-	function animateText() {
-  var textElement = document.getElementById('animated-text');
-  textElement.classList.remove('animation');
-  void textElement.offsetWidth; // Trigger reflow to restart the animation
-  textElement.classList.add('animation');
-  window.onload = function() {
-  var textElement = document.getElementById('animated-text');
-  textElement.style.opacity = 1;
-}
-}
+	<script type="text/javascript">
+		function animateText() {
+			var textElement = document.getElementById('animated-text');
+			textElement.classList.remove('animation');
+			void textElement.offsetWidth; // Trigger reflow to restart the animation
+			textElement.classList.add('animation');
+			window.onload = function () {
+				var textElement = document.getElementById('animated-text');
+				textElement.style.opacity = 1;
+			}
+		}
 
-</script>
+	</script>
 </body>
+
 </html>
