@@ -33,7 +33,7 @@
 }
 
 body {
-    background-image: url('/download.svg');
+    background-image: url('download.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000;
